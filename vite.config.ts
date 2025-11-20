@@ -19,7 +19,7 @@ export default defineConfig({
   },
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname, "client"),
-  base: '/', // Root path
+  base: '/cateraj/', // Root path
   build: {
     outDir: 'docs',
     emptyOutDir: true,
