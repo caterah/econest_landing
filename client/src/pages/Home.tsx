@@ -5,6 +5,8 @@ import { APP_TITLE } from "@/const";
 import { useState } from "react";
 import { toast } from "sonner";
 
+export default function Home() {
+  const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
   const [apartmentType, setApartmentType] = useState("");
   const [subscribed, setSubscribed] = useState(false);
