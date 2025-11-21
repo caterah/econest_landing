@@ -20,7 +20,7 @@ export default defineConfig({
   envDir: path.resolve(import.meta.dirname),
   root: path.resolve(import.meta.dirname, "client"),
   publicDir: 'public', 
-  base: '/econest_landing/', // Root path
+  base: '/', // Root path
   build: {
     outDir: '../docs',
     emptyOutDir: true,
