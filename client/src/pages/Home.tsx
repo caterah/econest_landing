@@ -100,7 +100,7 @@ export default function Home() {
               {/* Right Column - Image */}
               <div className="flex justify-center lg:justify-end">
                 <img 
-                  src="/econest_hero.png" 
+                  src="/econest_landing/econest_hero.png" 
                   alt="EcoNest Smart Composting System" 
                   className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-2xl"
                 />
