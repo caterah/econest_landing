@@ -5,8 +5,6 @@ import { APP_TITLE } from "@/const";
 import { useState } from "react";
 import { toast } from "sonner";
 
-export default function Home() {
-  const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
   const [apartmentType, setApartmentType] = useState("");
   const [subscribed, setSubscribed] = useState(false);
@@ -100,7 +98,7 @@ export default function Home() {
               {/* Right Column - Image */}
               <div className="flex justify-center lg:justify-end">
                 <img 
-                  src="/econest_landing/econest_hero.png" 
+                  src="/econest_hero.png" 
                   alt="EcoNest Smart Composting System" 
                   className="w-full max-w-md lg:max-w-lg rounded-2xl shadow-2xl"
                 />
