@@ -22,7 +22,7 @@ export default defineConfig({
   publicDir: 'public', 
   base: '/econest_landing/', // Root path
   build: {
-    outDir: 'docs',
+    outDir: '../docs',
     emptyOutDir: true,
   }, 
  server: {
